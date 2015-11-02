@@ -1,0 +1,28 @@
+@-webkit-keyframes move{
+	0% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(300px);
+  }
+}
+
+@keyframes move{
+	0% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(300px);
+  }
+}
+
+#cube{
+	fill:none;
+	stroke:#423AA3;
+	stroke-miterlimit:10;
+    animation: move 3s linear 2s infinite alternate;
+}
+
+
+
+
